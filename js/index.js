@@ -143,7 +143,7 @@ if(highScore===null){
 }
 window.requestAnimationFrame(main)
 function play(key){
-    inoutDir = { x: 0, y: 1 }
+    inputDir = { x: 0, y: 1 }
     moveSound.play();
     console.log(key)
     switch (key) {
@@ -184,7 +184,7 @@ function play(key){
     }
 }
 window.addEventListener('keydown', e => {
-    inoutDir = { x: 0, y: 1 }
+    inputDir = { x: 0, y: 1 }
     moveSound.play();
     switch (e.key) {
         case "ArrowUp":
