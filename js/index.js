@@ -77,7 +77,7 @@ function gameEngine() {
         gameOversound.play();
         musicSound.pause();
         inputDir = {x:0, y:0};
-        alert("Nikal Loru!!!")
+        alert("You are out!!!")
         snakeArr = [{x:13,y:15}];
         // musicSound.play()
         score=0;
